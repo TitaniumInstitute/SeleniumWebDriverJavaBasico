@@ -46,7 +46,7 @@ public class KeyboardAndMouse {
             Thread.sleep(4000);
 
             WebElement lnkSignOut = driver.findElement(By.linkText("Sign out"));
-            builider.click().build().perform();
+            builider.click(lnkSignOut).build().perform();
 
             System.out.println("Prueba es Exitosa!");
 
